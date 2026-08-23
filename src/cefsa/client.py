@@ -29,7 +29,7 @@ def extract_menu() -> str:
 
         # Aguarda o conteúdo do cardápio, pois a página mantém requisições ativas.
         page.wait_for_function(
-            "document.body.innerText.includes('Cardápio Semanal')",
+            "Boolean(document.body && document.body.innerText.includes('Cardápio Semanal'))",
             timeout=60000
         )
 
