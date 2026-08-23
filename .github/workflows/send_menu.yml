@@ -30,4 +30,4 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          python jobs/send_menu.py
+          python src/jobs/send_menu.py
