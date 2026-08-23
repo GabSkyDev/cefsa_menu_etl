@@ -1,0 +1,157 @@
+{
+    "semana": null,
+    "dias": [
+        {
+            "dia": "Segunda",
+            "data": "2026-08-24",
+            "refeicoes": {
+                "cafe_da_manha": [
+                    "Pão com margarina",
+                    "Leite com café",
+                    "Leite com chocolate"
+                ],
+                "almoco_jantar": [
+                    "Salada de Folhas produzida na horta do CEFSA",
+                    "Arroz",
+                    "Feijão",
+                    "Bife grelhado produzido na Agroindustrial Salvador Arena",
+                    "Legumes sautée",
+                    "Creme de alho porró",
+                    "Pera",
+                    "Suco de Uva"
+                ],
+                "lanche": [
+                    "Enroladinho de queijo",
+                    "Maçã",
+                    "Suco de Uva"
+                ],
+                "lanche_reforcado": [
+                    "Baguete de queijo",
+                    "Maçã",
+                    "Suco de Uva"
+                ]
+            }
+        },
+        {
+            "dia": "Terça",
+            "data": "2026-08-25",
+            "refeicoes": {
+                "cafe_da_manha": [
+                    "Pão com margarina",
+                    "Leite com café",
+                    "Leite com chocolate (200ml - 1 copo - 200Kcal",
+                    "Bisnaga integral"
+                ],
+                "almoco_jantar": [
+                    "Salada de alface com tomate cereja",
+                    "Arroz",
+                    "Feijão",
+                    "Carne em cubos produzida na Agroindustrial Salvador Arena",
+                    "Purê de batata",
+                    "Abacaxi",
+                    "Suco de Maracujá"
+                ],
+                "lanche": [
+                    "Roseta de coco",
+                    "Banana",
+                    "Vitamina de Mamão com Aveia"
+                ],
+                "lanche_reforcado": [
+                    "Roseta de coco",
+                    "Banana",
+                    "Vitamina de Mamão com Aveia"
+                ]
+            }
+        },
+        {
+            "dia": "Quarta",
+            "data": "2026-08-26",
+            "refeicoes": {
+                "cafe_da_manha": [
+                    "Pão com margarina",
+                    "Leite com café",
+                    "Leite com chocolate",
+                    "Bisnaga integral"
+                ],
+                "almoco_jantar": [
+                    "Salada de alface produzida na horta do CEFSA",
+                    "Arroz",
+                    "Feijão",
+                    "Cassoulet",
+                    "Farofa",
+                    "Melancia",
+                    "Suco de limão"
+                ],
+                "lanche": [
+                    "Torta de frango cremoso",
+                    "Pera",
+                    "Suco de limão"
+                ],
+                "lanche_reforcado": [
+                    "Torta de frango cremoso",
+                    "Pera",
+                    "Suco de limão"
+                ]
+            }
+        },
+        {
+            "dia": "Quinta",
+            "data": "2026-08-27",
+            "refeicoes": {
+                "cafe_da_manha": [
+                    "Pão com margarina",
+                    "Leite com café"
+                ],
+                "almoco_jantar": [
+                    "Salada de pepino com tomate",
+                    "Arroz",
+                    "Feijão",
+                    "Nuggets de frango",
+                    "Escarola refogada",
+                    "Sopa de grão de bico",
+                    "Pavê de Prestígio"
+                ],
+                "lanche": [
+                    "Enroladinho de carne com queijo",
+                    "Mexerica",
+                    "Suco de Maracujá"
+                ],
+                "lanche_reforcado": [
+                    "Baguete de carne com queijo",
+                    "Mexerica",
+                    "Suco de Maracujá"
+                ]
+            }
+        },
+        {
+            "dia": "Sexta",
+            "data": "2026-08-24",
+            "refeicoes": {
+                "cafe_da_manha": [
+                    "Pão com margarina",
+                    "Leite com café",
+                    "Leite com chocolate"
+                ],
+                "almoco_jantar": [
+                    "Salada de alface produzida na horta do CEFSA",
+                    "Arroz",
+                    "Feijão",
+                    "Costela assada produzida na Agroindustrial Salvador Arena",
+                    "Batata doce sautée",
+                    "Mamão",
+                    "Suco de Uva verde"
+                ],
+                "lanche": [
+                    "Enroladinho à Portuguesa",
+                    "Maçã",
+                    "Suco de Uva verde"
+                ],
+                "lanche_reforcado": [
+                    "Baguete à Portuguesa",
+                    "Maçã",
+                    "Suco de Uva verde"
+                ]
+            }
+        }
+    ]
+}

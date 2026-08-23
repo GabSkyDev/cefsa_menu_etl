@@ -1,0 +1,87 @@
+# ==========================================
+# Python
+# ==========================================
+
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking / linting
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+
+# ==========================================
+# IDEs / Editors
+# ==========================================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# ==========================================
+# Playwright
+# ==========================================
+
+# Caso você instale browsers localmente
+.playwright/
+
+
+# ==========================================
+# Logs / Temporary files
+# ==========================================
+
+*.log
+*.tmp
+*.temp
+
+
+# ==========================================
+# Project-specific
+# ==========================================
+
+# NÃO ignorar:
+# data/cardapio.json
+#
+# Ele precisa ser versionado porque o GitHub Actions
+# vai atualizá-lo e fazer commit.
+
+# Arquivos temporários de desenvolvimento
+debug/
+tmp/
