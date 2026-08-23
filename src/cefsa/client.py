@@ -27,14 +27,20 @@ def extract_menu() -> str:
         page.locator("#senhaAluno").fill(SENHA)
         page.locator("button.btn_login").first.click()
 
-        # Espera até que a página esteja completamente carregada
-        page.wait_for_load_state("networkidle")
+        # Aguarda o conteúdo do cardápio, pois a página mantém requisições ativas.
+        page.wait_for_function(
+            "document.body.innerText.includes('Cardápio Semanal')",
+            timeout=60000
+        )
 
         # Navega até a página do cardápio
         texto = page.locator("body").inner_text()
 
         inicio = texto.find("Cardápio Semanal")
         fim = texto.find("Faltas", inicio)
+
+        if inicio == -1 or fim == -1:
+            raise RuntimeError("Não foi possível localizar o cardápio na página autenticada.")
 
         cardapio_raw = texto[inicio:fim]
 
