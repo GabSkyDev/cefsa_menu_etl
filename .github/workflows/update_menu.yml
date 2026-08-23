@@ -35,7 +35,7 @@ jobs:
           CEFSA_USUARIO: ${{ secrets.CEFSA_USUARIO }}
           CEFSA_SENHA: ${{ secrets.CEFSA_SENHA }}
         run: |
-          python src/jobs/update_menu.py
+          python -m src.jobs.update_menu
 
       - name: Commitar cardápio
         run: |
