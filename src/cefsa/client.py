@@ -11,7 +11,7 @@ SENHA   = os.getenv("CEFSA_SENHA")
 
 def extract_menu() -> str:
     with sync_playwright() as p:
-        # Inicia o navegador Chromium em modo não headless (visível)
+        # Inicia o navegador Chromium em modo headless (invísivel)
         browser = p.chromium.launch(
             headless=True
         )

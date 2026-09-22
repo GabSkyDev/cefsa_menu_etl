@@ -1,9 +1,9 @@
 {
-    "semana": "14/09/2026 à 18/09/2026",
+    "semana": "21/09/2026 à 25 /09/2026",
     "dias": [
         {
             "dia": "Segunda",
-            "data": "2026-09-14",
+            "data": "2026-09-21",
             "refeicoes": {
                 "cafe_da_manha": [
                     "Pão com margarina",
@@ -11,30 +11,29 @@
                     "Leite com chocolate (200ml - 1 copo - 200Kcal"
                 ],
                 "almoco_jantar": [
-                    "Salada de folhas produzida na horta do CEFSA",
+                    "Salada de beterraba/ repolho produzida na horta do CEFSA",
                     "Arroz",
                     "Feijão",
-                    "Carne em cubos com batatas produzida na Agroindustrial Salvador Arena",
-                    "Polenta cremosa",
-                    "Ovo cozido produzido na Agroindustrial Salvador Arena",
-                    "Melão",
-                    "Suco de Uva"
+                    "Bife grelhado produzido na Agroindustrial Salvador Arena",
+                    "Ovo pochê produzido na Agroindustrial Salvador Arena",
+                    "Maçã",
+                    "Suco de Maracujá"
                 ],
                 "lanche": [
-                    "Enroladinho de frios",
+                    "Roseta de queijo",
                     "Banana",
-                    "Suco de Uva"
+                    "Suco de Maracujá"
                 ],
                 "lanche_reforcado": [
-                    "Baguete de frios",
+                    "Roseta de queijo",
                     "Banana",
-                    "Suco de Uva"
+                    "Suco de Maracujá"
                 ]
             }
         },
         {
             "dia": "Terça",
-            "data": "2026-09-15",
+            "data": "2026-09-22",
             "refeicoes": {
                 "cafe_da_manha": [
                     "Pão com margarina",
@@ -43,29 +42,30 @@
                     "Leite com chocolate (200ml - 1 copo - 200Kcal"
                 ],
                 "almoco_jantar": [
-                    "Salada de Tomate produzido na Agroindustrial Salvador Arena",
+                    "Salada de folhas produzidas na horta do CFESA",
                     "Arroz",
                     "Feijão",
-                    "Bife grelhado produzido na Agroindustrial Salvador Arena",
-                    "Chuchu na salsa",
+                    "Carne moída a primavera produzida na Agroindustrial Salvador Arena",
+                    "Couve-flor sautée",
                     "Ovo cozido produzido na Agroindustrial Salvador Arena",
-                    "Canjica"
+                    "Melancia",
+                    "Suco de Abacaxi"
                 ],
                 "lanche": [
-                    "Empada de frango com Palmito",
+                    "Enroladinho de calabresa temperada",
                     "Maçã",
-                    "Suco de Caju"
+                    "Suco de Abacaxi"
                 ],
                 "lanche_reforcado": [
-                    "Empada de frango com Palmito",
+                    "Baguete de calabresa temperada",
                     "Maçã",
-                    "Suco de Caju"
+                    "Suco de Abacaxi"
                 ]
             }
         },
         {
             "dia": "Quarta",
-            "data": "2026-09-16",
+            "data": "2026-09-23",
             "refeicoes": {
                 "cafe_da_manha": [
                     "Pão com margarina",
@@ -74,22 +74,22 @@
                     "Bisnaga integral"
                 ],
                 "almoco_jantar": [
+                    "Salada de Alface produzida na horta do CFESA",
                     "Arroz",
-                    "Feijoada",
-                    "Couve refogada produzida na horta do CEFSA",
+                    "Feijão",
+                    "Puchero",
                     "Farofa",
-                    "Vinagrete",
                     "Ovo cozido produzido na Agroindustrial Salvador Arena",
                     "Laranja",
                     "Suco de limão"
                 ],
                 "lanche": [
-                    "Bolo formigueiro",
+                    "Enroladinho de carne produzida na Agroindustrial Salvador Arena",
                     "Maçã",
                     "Suco de limão"
                 ],
                 "lanche_reforcado": [
-                    "Bolo formigueiro",
+                    "Baguete de carne produzida na Agroindustrial Salvador Arena",
                     "Maçã",
                     "Suco de limão"
                 ]
@@ -97,7 +97,7 @@
         },
         {
             "dia": "Quinta",
-            "data": "2026-09-17",
+            "data": "2026-09-24",
             "refeicoes": {
                 "cafe_da_manha": [
                     "Pão com margarina",
@@ -106,30 +106,29 @@
                     "Bisnaga integral"
                 ],
                 "almoco_jantar": [
-                    "Salada de cenoura, couve-flor, brócolis e vagem",
+                    "Salada de beterraba cozida",
                     "Arroz",
                     "Feijão",
-                    "Strogonoff de frango",
-                    "Batata Rústica",
+                    "Carne assada produzida na Agroindustrial Salvador Arena",
+                    "Escarola refogada produzida na horta do CEFSA",
                     "Ovo cozido produzido na Agroindustrial Salvador Arena",
-                    "Maçã",
-                    "Suco de Laranja"
+                    "Delícia de amora produzida na Agroindustrial Salvador Arena"
                 ],
                 "lanche": [
-                    "Enroladinho de carne com queijo produzida na Agroindustrial Salvador Arena",
-                    "Banana",
-                    "Suco de Laranja"
+                    "Pão com patê de frango",
+                    "Maçã",
+                    "Suco de Uva"
                 ],
                 "lanche_reforcado": [
-                    "Enroladinho de carne com queijo produzida na Agroindustrial Salvador Arena",
-                    "Banana",
-                    "Suco de Laranja"
+                    "Pão com patê de frango",
+                    "Maçã",
+                    "Suco de Caju"
                 ]
             }
         },
         {
             "dia": "Sexta",
-            "data": "2026-09-18",
+            "data": "2026-09-25",
             "refeicoes": {
                 "cafe_da_manha": [
                     "Pão com margarina",
@@ -137,25 +136,25 @@
                     "Leite com chocolate"
                 ],
                 "almoco_jantar": [
-                    "Salada de Alface produzido na Agroindustrial Salvador Arena",
+                    "Salada de Folhas produzido na Agroindustrial Salvador Arena",
                     "Arroz",
                     "Feijão",
-                    "Escondidinho de Costela produzida na Agroindustrial Salvador Arena",
-                    "Escarola refogada",
-                    "Creme de legumes",
+                    "Filé de Coxa ao molho de laranja",
+                    "Batata a Portuguesa",
+                    "Creme de Abóbora",
                     "Ovo cozido produzido na Agroindustrial Salvador Arena",
-                    "Mamão",
-                    "Suco de Abacaxi"
+                    "Abacaxi",
+                    "Suco de Uva"
                 ],
                 "lanche": [
-                    "Enroladinho de Pizza",
+                    "Enroladinho de frios",
                     "Maçã",
-                    "Suco de Abacaxi"
+                    "Suco de Caju"
                 ],
                 "lanche_reforcado": [
-                    "Enroladinho de Pizza",
+                    "Baguete de frios",
                     "Maçã",
-                    "Suco de Abacaxi"
+                    "Suco de Uva"
                 ]
             }
         }
