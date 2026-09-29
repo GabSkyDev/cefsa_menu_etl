@@ -6,7 +6,6 @@
 
 ETL em Python para automatizar a coleta, normalização e divulgação do cardápio semanal do CEFSA por meio de um webhook do Discord.
 
----
 
 ## Sobre o projeto
 
@@ -22,8 +21,6 @@ A solução implementada combina:
 
 Em alto nível, o projeto funciona como um pipeline ETL: coleta dados de uma fonte web, transforma o texto bruto em um formato estruturado e publica o resultado em um canal de comunicação.
 
----
-
 ## Funcionalidades
 
 - Extração do cardápio semanal da página autenticada do CEFSA;
@@ -33,8 +30,6 @@ Em alto nível, o projeto funciona como um pipeline ETL: coleta dados de uma fon
 - Publicação automática do cardápio do dia em um webhook;
 - Atualização periódica via GitHub Actions;
 - Armazenamento do estado do cardápio em um arquivo JSON no repositório.
-
----
 
 ## Tecnologias e ferramentas
 
@@ -67,8 +62,6 @@ O arquivo [requirements.txt](requirements.txt) contém as bibliotecas utilizadas
 - `python-dotenv==1.2.3`
 - `requests==2.34.2`
 
----
-
 ## Arquitetura e funcionamento
 
 O fluxo do sistema é simples e segue a lógica de ETL.
@@ -91,8 +84,6 @@ flowchart LR
 4. Os dados são salvos em um arquivo JSON no diretório `src/database`.
 5. O job de envio lê esse JSON, identifica o dia atual e formata a mensagem.
 6. O webhook do Discord recebe a mensagem em markdown simples.
-
----
 
 ## Estrutura do projeto
 
@@ -136,8 +127,6 @@ cefsa_menu_etl/
 - `src/jobs/`: pontos de entrada para atualização e envio do menu.
 - `.github/workflows/`: automação do fluxo em GitHub Actions.
 
----
-
 ## Requisitos
 
 Para executar o projeto localmente, são necessários:
@@ -150,8 +139,6 @@ Para executar o projeto localmente, são necessários:
 - Arquivo `.env` com as variáveis necessárias
 
 > O projeto usa o Playwright para abrir e navegar em um navegador em modo automatizado. Por isso, no ambiente local é necessário instalar o Chromium do Playwright antes da primeira execução do job de atualização.
-
----
 
 ## Configuração
 
@@ -171,7 +158,6 @@ DISCORD_WEBHOOK_URL=seu_webhook_do_discord
 
 > Os valores reais devem ser preenchidos localmente e nunca enviados para o repositório.
 
----
 
 ## Como executar localmente
 
@@ -234,7 +220,6 @@ python -m src.jobs.send_menu
 
 Esse comando lê o JSON do dia atual e publica a mensagem formatada no webhook configurado.
 
----
 
 ## Uso
 
@@ -273,28 +258,50 @@ A mensagem final é organizada por refeição, por exemplo:
 - Lanche
 - Lanche reforçado
 
----
-
 ## Demonstração
 
-> 📸 Espaço reservado para capturas de tela do cardápio publicado no Discord ou da execução do pipeline.
+### Recebimento da mensagem no discord
+<img width="870" height="803" alt="image" src="https://github.com/user-attachments/assets/22e0f1f2-ee48-45f2-9c04-b7e24e21f88d" />
 
-![Screenshot da aplicação](./docs/images/screenshot.png)
+### Workflow de envio do cardapio no Github Actions
+<img width="1279" height="625" alt="image" src="https://github.com/user-attachments/assets/ecf85b70-c321-4168-9745-2ed07d71fb2b" />
 
-Se desejar, esse espaço pode ser preenchido futuramente com:
-
-- imagem do cardápio publicado;
-- print do workflow no GitHub Actions;
-- exemplo do JSON gerado;
-- tela do canal do Discord.
-
----
-
-## Testes
-
-Não há suíte de testes automatizados identificada neste repositório até o momento. O projeto depende principalmente de execução manual e de automações em GitHub Actions para validar o fluxo de ETL.
-
----
+### Estrutura do cardápio diário em JSON
+```json
+ {
+            "dia": "Terça",
+            "data": "2026-09-29",
+            "refeicoes": {
+                "cafe_da_manha": [
+                    "Pão com margarina",
+                    "Bisnaga com margarina",
+                    "Leite com café",
+                    "Leite com chocolate (200ml - 1 copo - 200Kcal"
+                ],
+                "almoco_jantar": [
+                    "Salada de repolho/ Beterraba produzida na horta do CEFSA",
+                    "Arroz",
+                    "Feijão",
+                    "Bife acebolado produzido na Agroindustrial Salvador Arena",
+                    "Virado de legumes",
+                    "Sopa de feijão",
+                    "Ovo cozido produzido na Agroindustrial Salvador Arena",
+                    "Maçã",
+                    "Suco de Uva"
+                ],
+                "lanche": [
+                    "Enroladinho à Portuguesa",
+                    "Banana",
+                    "Suco de Uva"
+                ],
+                "lanche_reforcado": [
+                    "Baguete à Portuguesa",
+                    "Banana",
+                    "Suco de Uva"
+                ]
+            }
+        }
+```
 
 ## GitHub Actions
 
@@ -321,29 +328,18 @@ Esses workflows precisam de secrets configurados no repositório:
 - `CEFSA_SENHA`
 - `DISCORD_WEBHOOK_URL`
 
----
-
 ## Melhorias futuras
 
-- [ ] adicionar testes automatizados para parser e serialização;
-- [ ] documentar o formato do JSON gerado;
 - [ ] incluir logs mais estruturados para diagnósticos de execução;
 - [ ] adicionar suporte a outros canais de notificação além do Discord;
-- [ ] criar documentação visual para o fluxo de ETL e a estrutura de dados.
-
----
 
 ## Licença
 
 Nenhuma licença foi declarada no repositório. Portanto, o projeto não possui uma licença explícita documentada no momento.
 
----
-
 ## Autor
 
 **Gabriel Lima de Sousa**
-
----
 
 ## Observações importantes
 
