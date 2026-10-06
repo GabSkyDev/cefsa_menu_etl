@@ -17,6 +17,6 @@ def send_message(message: str):
         DISCORD_WEBHOOK_URL,
         json={
             "content": message
-        },
+        },  
         timeout = 10
     )
