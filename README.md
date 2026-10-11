@@ -275,8 +275,17 @@ A mensagem final é organizada por refeição, por exemplo:
 ### Recebimento da mensagem no discord
 <img width="870" height="803" alt="image" src="https://github.com/user-attachments/assets/22e0f1f2-ee48-45f2-9c04-b7e24e21f88d" />
 
+---
+
+### Recebimento da mensagem no Telegram
+<img width="721" height="577" alt="image" src="https://github.com/user-attachments/assets/31a44a73-ff94-4f7c-bdaa-14c901ed21db" />
+
+--- 
+
 ### Workflow de envio do cardapio no Github Actions
 <img width="1279" height="625" alt="image" src="https://github.com/user-attachments/assets/ecf85b70-c321-4168-9745-2ed07d71fb2b" />
+
+--- 
 
 ### Estrutura do cardápio diário em JSON
 ```json
