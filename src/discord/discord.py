@@ -9,14 +9,20 @@ load_dotenv()
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 # Função para enviar uma mensagem para o Discord usando o webhook
-def send_message(message: str):
+def send_discord_message(message: str):
     if not DISCORD_WEBHOOK_URL:
         raise ValueError("DISCORD_WEBHOOK_URL não configurada.")
 
-    response = requests.post(
-        DISCORD_WEBHOOK_URL,
-        json={
-            "content": message
-        },  
-        timeout = 10
-    )
+    try:
+        response = requests.post(
+            DISCORD_WEBHOOK_URL,
+            json={
+                "content": message
+            },  
+            timeout = 10
+        )
+
+        print("Cardápio enviado para o Discord com suceso!")
+    except Exception as e:
+        print(f"Erro ao enviar para o Discord: {e}")
+

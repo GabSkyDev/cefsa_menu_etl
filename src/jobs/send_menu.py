@@ -1,6 +1,7 @@
 from datetime                   import date
 from pathlib                    import Path
-from src.discord.discord        import send_message
+from src.discord.discord        import send_discord_message
+from src.telegram.telegram      import send_telegram_message
 from src.transform.formatter    import format_menu 
 
 import json
@@ -24,7 +25,7 @@ def find_day(menu, data_atual):
 
     return None
 
-# Função principal que carrega o cardápio, encontra o cardápio do dia atual, formata a mensagem e envia para o Discord
+# Função principal que carrega o cardápio, encontra o cardápio do dia atual, formata a mensagem e envia para os respectivos canais
 def main():
     menu = load_menu()
 
@@ -41,9 +42,11 @@ def main():
 
     print(mensagem)
 
-    send_message(mensagem)
+    # Envio da menssagem pro Discord
+    send_discord_message(mensagem)
 
-    print("Cardápio enviado com sucesso!")
+    # Envio da mensagem pro Telegram
+    send_telegram_message(mensagem)
 
 if __name__ == "__main__":
     main()
