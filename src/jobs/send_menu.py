@@ -47,6 +47,3 @@ def main():
 
     # Envio da mensagem pro Telegram
     send_telegram_message(mensagem)
-
-if __name__ == "__main__":
-    main()

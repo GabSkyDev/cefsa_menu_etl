@@ -17,6 +17,3 @@ def update_menu():
     save_json(cardapio)
 
     print("Cardápio salvo com sucesso.")
-
-if __name__ == "__main__":
-    update_menu()
